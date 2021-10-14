@@ -19,7 +19,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Roboto, sans-serif, Arial;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
   line-height: 1.14;
   background: var(--mainColor);
@@ -207,9 +207,8 @@ section .header .contain .menu button {
   transition: box-shadow 0.5s;
 }
 section .header .contain .menu button:hover {
-  background: transparent;
-  box-shadow: 0 0 5px #0b1d2614, 0 0 25px var(--thirdColor),
-    0 0 50px var(--thirdColor), 0 0 100px var(--thirdColor);
+  box-shadow: 0 0 5px #0b1d2614, 0 0 25px #e1e1e1, 0 0 50px #686868,
+    0 0 100px #303030;
   cursor: var(--cursor);
   color: var(--secondaryColor);
 }
@@ -407,6 +406,7 @@ section .side i:first-of-type {
   height: 100%;
 }
 .content .container .hobbies .img-container img {
+  object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 28px;
@@ -533,7 +533,7 @@ section .side i:first-of-type {
 .panel.open {
   flex: 5;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .panels {
     flex-direction: column;
   }
@@ -558,6 +558,7 @@ section .side i:first-of-type {
 /* Start footer */
 .footer {
   margin-top: 150px;
+  padding-bottom: 70px;
 }
 .footer .container {
   display: grid;
