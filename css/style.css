@@ -523,6 +523,7 @@ section .side i:first-of-type {
   flex: 1;
   text-transform: uppercase;
   background: var(--background) center / 70vw 100vh no-repeat;
+  background-size: cover;
   cursor: pointer;
   display: flex;
   justify-content: center;
